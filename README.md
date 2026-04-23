@@ -25,10 +25,10 @@ analysis.ipynb
 
 
 
-📄 Write-up
+#📄 Write-up
 
 
-🧠 Methodology
+##🧠 Methodology
 
 The analysis began with cleaning and preparing two datasets: market sentiment (Fear/Greed index) and historical trader data. Column names were standardized, missing values and duplicates were handled, and timestamps were converted into a consistent daily format.
 
@@ -37,7 +37,7 @@ Both datasets were then merged on the date field to align trading activity with 
 Exploratory data analysis was conducted to compare trader performance and behavior across different sentiment conditions (Fear vs Greed). Additionally, traders were segmented based on activity levels (frequent vs infrequent) to better understand behavioral differences across groups.
 
 
-📊 Key Insights
+##📊 Key Insights
 
 Trader performance varies significantly with market sentiment. Average PnL tends to be higher during Greed periods, indicating more favorable trading conditions in bullish markets.
 Win rates decline during Fear and Extreme Fear periods, suggesting increased uncertainty and reduced predictability in market movements.
@@ -45,7 +45,7 @@ Traders exhibit higher risk-taking behavior during Greed phases, as reflected by
 Frequent traders benefit more during Greed periods but are more negatively impacted during Fear periods, indicating sensitivity to market conditions.
 
 
-💡 Strategy Recommendations
+##💡 Strategy Recommendations
 
 During Fear or Extreme Fear periods, traders should adopt a conservative approach by reducing position sizes and limiting trade frequency to manage risk and avoid losses.
 During Greed periods, traders can take advantage of stronger market trends by applying momentum-based strategies, while maintaining controlled risk exposure.
